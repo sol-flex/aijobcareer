@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
 
 const JobDetailPage = () => {
   const { id } = useParams();
@@ -65,11 +66,11 @@ const JobDetailPage = () => {
         <div className="grid grid-cols-3 gap-8 py-8">
           {/* Job Details */}
           <div className="col-span-2">
-            <div className="prose max-w-none">
+            <div className="prose max-w-none prose-p:-my-1">
               <h2 className="text-2xl font-semibold mb-4">About the Role</h2>
-              <div className="whitespace-pre-wrap text-gray-600">
+              <ReactMarkdown className="whitespace-pre-wrap text-gray-600">
                 {job.description}
-              </div>
+              </ReactMarkdown>
             </div>
           </div>
 

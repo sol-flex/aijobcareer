@@ -39,6 +39,8 @@ const CompanyPage = () => {
   if (error) return <div className="text-center py-8 text-red-600">{error}</div>;
   if (!jobs) return <div className="text-center py-8">No jobs found</div>;
 
+  const companyLogo = jobs && Object.values(jobs)[0]?.[0]?.companyLogo;
+
   return (
     <div className="min-h-screen bg-gray-50 pt-20">
       <div className="max-w-4xl mx-auto p-8">
@@ -46,7 +48,7 @@ const CompanyPage = () => {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <div className="flex items-center gap-6">
             <img
-              src="/company-logo.png" // You'll need to add this to your company data
+              src={companyLogo || '/default-company-logo.png'}
               alt={`${companyName} logo`}
               className="w-20 h-20 object-contain rounded-lg"
             />
