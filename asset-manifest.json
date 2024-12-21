@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sol-flex/aijobcareer/static/css/main.deff9b06.css",
+    "main.js": "/sol-flex/aijobcareer/static/js/main.2c1bc10d.js",
+    "static/js/488.5dc00adb.chunk.js": "/sol-flex/aijobcareer/static/js/488.5dc00adb.chunk.js",
+    "static/media/logo.svg": "/sol-flex/aijobcareer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/sol-flex/aijobcareer/index.html",
+    "main.deff9b06.css.map": "/sol-flex/aijobcareer/static/css/main.deff9b06.css.map",
+    "main.2c1bc10d.js.map": "/sol-flex/aijobcareer/static/js/main.2c1bc10d.js.map",
+    "488.5dc00adb.chunk.js.map": "/sol-flex/aijobcareer/static/js/488.5dc00adb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deff9b06.css",
+    "static/js/main.2c1bc10d.js"
+  ]
+}
