@@ -10,7 +10,7 @@ import SuccessPage from './pages/SuccessPage';
 
 function App() {  
   return (
-    <Router>
+    <Router basename="/aijobcareer">
       <div className="min-h-screen">
         <Navbar />
         <Routes>
