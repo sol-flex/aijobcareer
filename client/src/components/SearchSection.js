@@ -63,7 +63,7 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
               placeholder="Job title, keywords, or company"
               value={keyword}
               onChange={(e) => setKeyword(e.target.value)}
-              className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-gray-900"
             />
           </div>
 
@@ -73,13 +73,13 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
               placeholder="Location"
               value={location}
               onChange={(e) => setLocation(e.target.value)}
-              className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-gray-900"
             />
           </div>
 
           <button
             type="submit"
-            className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-blue-600"
+            className="bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-colors"
           >
             Search
           </button>
@@ -121,10 +121,10 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
                     onChange={(e) => setResumeFile(e.target.files[0])}
                     className="hidden"
                   />
-                  <div className="w-64 px-4 py-3 rounded-lg border border-gray-300 focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-500 flex items-center justify-center text-gray-500 hover:text-blue-500 hover:border-blue-500 transition-colors overflow-hidden">
+                  <div className="w-64 px-4 py-3 rounded-lg border border-gray-300 focus-within:border-gray-900 focus-within:ring-2 focus-within:ring-gray-900 flex items-center justify-center text-gray-500 hover:text-gray-900 hover:border-gray-900 transition-colors overflow-hidden">
                     {resumeFile ? (
                       <>
-                        <svg className="w-5 h-5 mr-2 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 mr-2 text-gray-900 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                         </svg>
                         <span className="truncate text-gray-700">{resumeFile.name}</span>
@@ -146,12 +146,12 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
                   placeholder="Enter your email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-gray-900"
                 />
               </div>
               <button
                 type="submit"
-                className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-blue-600"
+                className="bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-colors"
                 disabled={uploading}
               >
                 {uploading ? 'Uploading...' : 'Submit'}

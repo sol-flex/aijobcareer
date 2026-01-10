@@ -55,7 +55,7 @@ const SuccessPage = () => {
           <p className="text-gray-600 mb-6">{error}</p>
           <button 
             onClick={() => navigate('/post-job')}
-            className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+            className="px-6 py-2 bg-black text-white rounded hover:bg-gray-800 transition-colors"
           >
             Try Again
           </button>
@@ -71,7 +71,7 @@ const SuccessPage = () => {
           {loading ? 'Creating your job posting...' : 'Job Posted Successfully!'}
         </h1>
         {loading ? (
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mx-auto" />
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto" />
         ) : (
           <>
             <p className="text-gray-600 mb-4">

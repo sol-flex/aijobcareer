@@ -7,10 +7,10 @@ const CreateJobPage = () => {
       </div>
 
       {/* Pricing Section */}
-      <div className="bg-white rounded-lg shadow-lg p-8 mb-8 border-2 border-blue-500">
+      <div className="bg-white rounded-lg shadow-lg p-8 mb-8 border-2 border-black">
         <div className="text-center mb-6">
           <h2 className="text-3xl font-bold mb-2">30-Day Job Posting</h2>
-          <div className="text-5xl font-bold text-blue-600 mb-2">$149</div>
+          <div className="text-5xl font-bold text-black mb-2">$149</div>
           <p className="text-gray-600">One-time payment</p>
         </div>
 
@@ -61,7 +61,7 @@ const CreateJobPage = () => {
         <div className="mb-6">
           <a
             href="mailto:legendjobinquiries@gmail.com?subject=Job Posting Inquiry"
-            className="inline-block bg-blue-500 text-white px-8 py-4 rounded-lg hover:bg-blue-600 font-bold text-lg transition"
+            className="inline-block bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 font-bold text-lg transition-colors"
           >
             Email Us to Post a Job
           </a>

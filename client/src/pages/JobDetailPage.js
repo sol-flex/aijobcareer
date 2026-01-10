@@ -48,7 +48,7 @@ const JobDetailPage = () => {
             </div>
             <button
               onClick={() => window.open(job.applicationUrl, '_blank')}
-              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-colors"
+              className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-lg transition-colors"
             >
               Apply Now
             </button>
@@ -108,7 +108,7 @@ const JobDetailPage = () => {
                   {job.keywords.split(',').map((keyword, index) => (
                     <span
                       key={index}
-                      className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm"
+                      className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm"
                     >
                       {keyword.trim()}
                     </span>
@@ -124,7 +124,7 @@ const JobDetailPage = () => {
           <div className="text-center">
             <button
               onClick={() => window.open(job.applicationUrl, '_blank')}
-              className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition-colors"
+              className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-lg transition-colors"
             >
               Apply for this position
             </button>
