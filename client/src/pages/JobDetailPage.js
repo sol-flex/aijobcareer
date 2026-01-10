@@ -31,7 +31,7 @@ const JobDetailPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-20">
-      <div className="max-w-4xl mx-auto p-8 bg-white rounded-lg shadow-sm">
+      <div className="max-w-4xl mx-auto p-8 bg-gray-50 rounded-lg shadow-sm">
         {/* Header */}
         <div className="border-b pb-8">
           <div className="flex justify-between items-start">
@@ -77,7 +77,7 @@ const JobDetailPage = () => {
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Job Details Card */}
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <h3 className="font-semibold text-gray-900 mb-4">Job Details</h3>
               
               <div className="space-y-4">
@@ -102,7 +102,7 @@ const JobDetailPage = () => {
 
             {/* Keywords */}
             {job.keywords && (
-              <div className="bg-gray-50 p-6 rounded-lg">
+              <div className="bg-gray-100 p-6 rounded-lg">
                 <h3 className="font-semibold text-gray-900 mb-4">Keywords</h3>
                 <div className="flex flex-wrap gap-2">
                   {job.keywords.split(',').map((keyword, index) => (

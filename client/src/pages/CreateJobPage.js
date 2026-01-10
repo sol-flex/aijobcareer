@@ -7,7 +7,7 @@ const CreateJobPage = () => {
       </div>
 
       {/* Pricing Section */}
-      <div className="bg-white rounded-lg shadow-lg p-8 mb-8 border-2 border-black">
+      <div className="bg-gray-50 rounded-lg shadow-lg p-8 mb-8 border-2 border-black">
         <div className="text-center mb-6">
           <h2 className="text-3xl font-bold mb-2">30-Day Job Posting</h2>
           <div className="text-5xl font-bold text-black mb-2">$149</div>

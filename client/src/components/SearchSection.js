@@ -87,7 +87,7 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
 
         {/* Resume Upload Banner */}
         {showResumeUpload && (
-          <div className="bg-white rounded-lg shadow-lg p-8 mt-4 mb-2 relative">
+          <div className="bg-gray-50 rounded-lg shadow-lg p-8 mt-4 mb-2 relative">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-semibold">
               Upload your resume and get jobs delivered to your inbox

@@ -22,7 +22,7 @@ function timeAgo(dateString) {
 
 const JobCard = ({ job }) => {
     return (
-        <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition p-6 border border-gray-200 mt-4">
+        <div className="bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition p-6 border border-gray-200 mt-4">
           <div className="flex items-start gap-4">
             <div className="w-12 h-12 flex-shrink-0">
               <img
