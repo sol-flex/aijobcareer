@@ -1,0 +1,41 @@
+
+================================================================================
+Testing: Glean
+================================================================================
+
+✓ Platform detected: greenhouse
+  Method: api
+  Slug: gleanwork
+
+→ Calling Greenhouse API...
+Fetching jobs from Greenhouse API for: gleanwork
+Found 163 jobs on Greenhouse
+
+✓ Successfully fetched 163 jobs!
+  Source: greenhouse-api
+  Company: Glean
+
+📁 Categories:
+  - General: 163 jobs
+
+📋 Sample jobs:
+  1. AI Outcomes Manager
+     Location: London, United Kingdom
+     URL: https://job-boards.greenhouse.io/gleanwork/jobs/4613925005
+  2. AI Outcomes Manager
+     Location: Remote - US
+     URL: https://job-boards.greenhouse.io/gleanwork/jobs/4549208005
+  3. AI Outcomes Manager
+     Location: San Francisco Bay Area
+     URL: https://job-boards.greenhouse.io/gleanwork/jobs/4540102005
+
+→ Testing detailed fetch for: "AI Outcomes Manager"
+
+✓ Job details fetched successfully!
+  Title: AI Outcomes Manager
+  Role: Customer Outcomes
+  Type: Full-Time
+  Location: London, United Kingdom (On Site)
+  Salary: Not specified
+  Description length: 7361 characters
+  Keywords: AI, Git, API

@@ -1,0 +1,17 @@
+2025-05-21T04:24:35.562Z - Error parsing https://apply.workable.com/huggingface/: Cannot read properties of undefined (reading 'length')
+2025-05-21T06:03:20.387Z - Error parsing https://jobs.ashbyhq.com/lambda/: Client must be connected before running operations
+2025-05-21T06:07:42.391Z - Error parsing https://jobs.ashbyhq.com/langchain: Client must be connected before running operations
+2025-05-21T06:08:13.198Z - Error parsing https://www.luminance.com/careers.html: Client must be connected before running operations
+2025-05-21T06:08:30.848Z - Error parsing https://mercor.com/company/0385ca0a-d220-47a9-85dd-b458c99f673f/jobs/: Client must be connected before running operations
+2025-05-21T06:15:16.289Z - Error parsing https://jobs.ashbyhq.com/lambda/: Client must be connected before running operations
+2025-05-21T06:19:35.484Z - Error parsing https://www.luminance.com/careers.html: Cannot read properties of undefined (reading 'length')
+2025-05-21T22:26:55.212Z - Error parsing https://jobs.ashbyhq.com/decagon/: Cannot read properties of undefined (reading 'length')
+2025-05-21T22:29:35.188Z - Error parsing https://apply.workable.com/huggingface/: Cannot read properties of undefined (reading 'length')
+2025-05-21T22:31:18.442Z - Error parsing https://www.luminance.com/careers.html: Cannot read properties of undefined (reading 'length')
+2025-05-21T23:36:27.375Z - Error parsing https://windsurf.com/careers: querySrv ETIMEOUT _mongodb._tcp.cluster0.pl9nm.mongodb.net
+2025-05-21T23:37:14.097Z - Error parsing https://jobs.ashbyhq.com/worldlabs: querySrv ECONNREFUSED _mongodb._tcp.cluster0.pl9nm.mongodb.net
+2025-07-05T14:05:31.187Z - Error parsing https://apply.workable.com/huggingface/: Cannot read properties of undefined (reading 'length')
+2025-07-05T14:31:21.947Z - Error parsing https://www.luminance.com/careers.html: Cannot read properties of undefined (reading 'length')
+2025-07-05T14:31:36.849Z - Error parsing https://mercor.com/company/0385ca0a-d220-47a9-85dd-b458c99f673f/jobs/: Cannot read properties of undefined (reading 'length')
+2025-08-04T04:43:45.231Z - Error parsing https://apply.workable.com/huggingface/: Cannot read properties of undefined (reading 'length')
+2025-08-04T04:45:32.133Z - Error parsing https://www.luminance.com/careers.html: Cannot read properties of undefined (reading 'length')

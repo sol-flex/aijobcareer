@@ -1,0 +1,13 @@
+
+================================================================================
+Testing: Cohere
+================================================================================
+
+✓ Platform detected: ashby
+  Method: api
+  Slug: cohere
+
+→ Fetching from Ashby...
+Fetching jobs from Ashby for: cohere
+
+✗ Error: Ashby fetch error: Could not find job data in Ashby page

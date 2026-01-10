@@ -1,0 +1,13 @@
+
+================================================================================
+Testing: Coactive Systems
+================================================================================
+
+✓ Platform detected: greenhouse
+  Method: api
+  Slug: coactivesystems
+
+→ Calling Greenhouse API...
+Fetching jobs from Greenhouse API for: coactivesystems
+
+✗ Error: Company "coactivesystems" not found on Greenhouse

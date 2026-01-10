@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Description Test - Glean AI Outcomes Manager</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f9fafb;
+            line-height: 1.6;
+        }
+        .test-header {
+            background: #4f46e5;
+            color: white;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 0;
+        }
+        .test-header h1 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+        }
+        .test-header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        .job-card {
+            background: white;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .job-header {
+            border-bottom: 1px solid #e5e7eb;
+            padding: 30px;
+            background: #fafafa;
+        }
+        .job-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111827;
+            margin: 0 0 15px 0;
+        }
+        .job-meta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            color: #6b7280;
+            font-size: 15px;
+        }
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .meta-item::before {
+            content: "•";
+            font-size: 20px;
+            color: #d1d5db;
+        }
+        .meta-item:first-child::before {
+            content: "";
+        }
+        .job-body {
+            padding: 40px;
+        }
+
+        /* Style the job description HTML */
+        .job-description {
+            color: #374151;
+        }
+        .job-description h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #111827;
+            margin: 30px 0 15px 0;
+        }
+        .job-description ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        .job-description li {
+            margin: 10px 0;
+            line-height: 1.7;
+        }
+        .job-description p {
+            margin: 15px 0;
+            line-height: 1.7;
+        }
+        .job-description strong {
+            font-weight: 600;
+            color: #111827;
+        }
+
+        .test-info {
+            background: #ecfdf5;
+            border: 1px solid #059669;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .test-info h3 {
+            margin: 0 0 10px 0;
+            color: #059669;
+            font-size: 18px;
+        }
+        .test-info ul {
+            margin: 10px 0 0 20px;
+            color: #047857;
+        }
+        .test-info li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-header">
+        <h1>✓ Job Description HTML Rendering Test</h1>
+        <p>This shows how the Greenhouse API HTML will render on your frontend</p>
+    </div>
+
+    <div class="job-card">
+        <div class="job-header">
+            <h1 class="job-title">AI Outcomes Manager</h1>
+            <div class="job-meta">
+                <div class="meta-item">Glean</div>
+                <div class="meta-item">London, United Kingdom</div>
+                <div class="meta-item">Customer Outcomes</div>
+                <div class="meta-item">On Site</div>
+            </div>
+        </div>
+
+        <div class="job-body">
+            <div class="job-description" id="jobDescription">
+                <!-- HTML will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <div class="test-info">
+        <h3>✓ Test Results</h3>
+        <ul>
+            <li>HTML loaded: <strong id="htmlLoaded">Checking...</strong></li>
+            <li>Description length: <strong id="descLength">Checking...</strong></li>
+            <li>Contains formatting tags: <strong id="hasFormatting">Checking...</strong></li>
+            <li>Contains inline styles: <strong id="hasStyles">Checking...</strong></li>
+        </ul>
+    </div>
+
+    <script>
+        // This is the actual HTML from your database
+        const jobDescription = `<div class="content-intro"><div><span style="font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt;"><strong>About Glean:</strong></span></div>
+<div>
+<p>Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry's most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.</p>
+At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean's agentic capabilities - AI agents that automate real work across teams by accessing the industry's broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level.<br>
+<p>Recognized by Fast Company as one of the World's Most Innovative Companies (Top 10, 2025), by CNBC's Disruptor 50, Bloomberg's AI Startups to Watch (2026), Forbes AI 50, and Gartner's Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across 50+ industries and 1,000+ employees in more than 25 countries, we're helping the world's largest organizations make every employee AI-fluent, and turning the superintelligent enterprise from concept into reality.</p>
+If you're excited to shape how the world works, you'll help build systems used daily across Microsoft Teams, Zoom, ServiceNow, Zendesk, GitHub, and many more - deeply embedded where people get things done. You'll ship agentic capabilities on an open, extensible stack, with the craft and care required for enterprise trust, as we bring Work AI to every employee, in every company.</div></div><h4 class="text-xl font-bold text-text-100 mt-1 -mb-0.5"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">About the Role:</span></h4>
+<p class="whitespace-pre-wrap break-words"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Glean is seeking a talented AI Outcomes Manager to join our rapidly expanding team. The AI Outcomes Manager will play a crucial role in transforming how every department works, with the power of Glean. They will work closely with executives and end users, combining business acumen, product sense, and prompting skills to help them transform into an AI-native enterprise.</span></p>
+<h4 class="text-xl font-bold text-text-100 mt-1 -mb-0.5"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">You will:</span></h4>
+<ul class="[&:not(:last-child)_ul]:pb-1 [&:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7">
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Engage with executive sponsors and provide strategic reviews and consult customers on developing and executing on their AI roadmap</span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Deeply comprehend Glean's suite of products, ensuring the ability to best help customers get the most out of the Glean platform</span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Conduct use case discovery workshops and turn those use cases into tangible outcomes </span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Collaborate internally with Product and R&D to help shape Glean's product roadmap based on the voice of our users </span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Proactively identify opportunities to expand Glean's deployment and enhance customer engagement</span></li>
+</ul>
+<h4><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><strong>About you:</strong></span></h4>
+<ul>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">2+ years of professional experience </span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Hungry, curious, and consultative mindset</span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Strong problem-solving skills with the ability to adapt to different users and scenarios</span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Proven understanding and ability to write complex prompts </span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Ability to understand various user types and convey a sense of the most valuable applications of AI in diverse job functions</span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Excellent communication skills to effectively interact with multiple stakeholder groups</span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Product sense and ability to drive a product's full potential capabilities</span></li>
+</ul>
+<h4><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><strong>Good to have:</strong></span></h4>
+<ul>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Customer presence: ability to work with any level from individual contributors to CEOs</span></li>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">Prior experience in consultative roles, solutions engineering, support, or product management</span></li>
+</ul>
+<p><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><strong>Location:</strong> London, United Kingdom</span></p>
+<ul>
+<li style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">This role is remote</span></li>
+</ul>
+<p><span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">#LI-Remote</span></p>`;
+
+        // Render it (this is what your React app will do)
+        document.getElementById('jobDescription').innerHTML = jobDescription;
+
+        // Update test results
+        document.getElementById('htmlLoaded').textContent = 'YES ✓';
+        document.getElementById('htmlLoaded').style.color = '#059669';
+
+        document.getElementById('descLength').textContent = jobDescription.length + ' characters';
+
+        const hasFormatting = jobDescription.includes('<h4>') && jobDescription.includes('<ul>');
+        document.getElementById('hasFormatting').textContent = hasFormatting ? 'YES ✓' : 'NO ✗';
+        document.getElementById('hasFormatting').style.color = hasFormatting ? '#059669' : '#dc2626';
+
+        const hasStyles = jobDescription.includes('style=');
+        document.getElementById('hasStyles').textContent = hasStyles ? 'YES ✓' : 'NO ✗';
+        document.getElementById('hasStyles').style.color = hasStyles ? '#059669' : '#dc2626';
+
+        console.log('✓ Job description rendered successfully');
+    </script>
+</body>
+</html>

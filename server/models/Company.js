@@ -1,0 +1,20 @@
+const mongoose = require('mongoose');
+
+const companySchema = new mongoose.Schema({
+    name: { type: String, required: true },
+    website: { type: String, required: true },
+    jobWebsite: { type: String, required: true },
+    numOfJobs: { type: String, required: true },
+    logo: { type: String, required:true },
+    indexed: { type: String },
+    platform: {
+        type: String,
+        enum: ['greenhouse', 'lever', 'ashby', 'unknown'],
+        default: 'unknown'
+    },
+    lastSyncedAt: { type: Date }
+}, { timestamps: true })
+
+const Company = mongoose.model('Company', companySchema);
+
+module.exports = Company;

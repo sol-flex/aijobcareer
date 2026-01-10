@@ -1,0 +1,180 @@
+================================================================================
+DETAILED GLEAN TEST RESULTS
+Date: 2026-01-09T18:46:33.377Z
+================================================================================
+
+[1] Fetching all jobs from Greenhouse API...
+
+✓ Found 163 total jobs
+Company: Glean
+
+[2] All Jobs List:
+--------------------------------------------------------------------------------
+
+1. AI Outcomes Manager
+   Location: London, United Kingdom
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4613925005
+   Updated: 2025-10-08T00:36:26-04:00
+
+2. AI Outcomes Manager
+   Location: Remote - US
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4549208005
+   Updated: 2025-12-18T10:54:22-05:00
+
+3. AI Outcomes Manager
+   Location: San Francisco Bay Area
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4540102005
+   Updated: 2025-12-18T10:54:04-05:00
+
+4. AI Outcomes Manager (ANZ)
+   Location: Australia
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4621972005
+   Updated: 2025-11-04T01:21:03-05:00
+
+5. AI Outcomes Manager - Japan
+   Location: Japan
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4605742005
+   Updated: 2025-10-08T00:36:24-04:00
+
+6. AI Outcomes Manager - Singapore
+   Location: Singapore
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4586837005
+   Updated: 2025-10-08T00:36:26-04:00
+
+7. Application Security Engineer
+   Location: Bangalore
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4612849005
+   Updated: 2025-10-08T00:36:38-04:00
+
+8. Associate Sales Development Recruiter (Contractor)
+   Location: San Francisco, California
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4631303005
+   Updated: 2025-11-17T18:04:34-05:00
+
+9. Associate Sales Development Recruiter (Contractor)
+   Location: Nashville, Tennessee
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4628316005
+   Updated: 2025-12-30T15:21:12-05:00
+
+10. Business Development Representative 
+   Location: Bangalore
+   URL: https://job-boards.greenhouse.io/gleanwork/jobs/4633704005
+   Updated: 2025-12-04T02:17:21-05:00
+
+... and 153 more jobs
+
+
+[3] Detailed Job Information (First 3):
+================================================================================
+
+--- JOB 1: AI Outcomes Manager ---
+
+Full Details:
+{
+  "company": "Glean",
+  "companyLogo": null,
+  "title": "AI Outcomes Manager",
+  "primaryRole": "Customer Outcomes",
+  "positionType": "Full-Time",
+  "locationType": "On Site",
+  "country": "United Kingdom",
+  "locations": "London, United Kingdom",
+  "description": "<div class=\"content-intro\"><div><span style=\"font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt;\"><strong>About Glean:</strong></span></div>\n<div>\n<p>Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.</p>\nAt its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilities - AI agents that automate real work across teams by accessing the industry’s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level.<br>\n<p>Recognized by Fast Company as one of the World’s Most Innovative Companies (Top 10, 2025), by CNBC’s Disruptor 50, Bloomberg’s AI Startups to Watch (2026), Forbes AI 50, and Gartner’s Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across 50+ industries and 1,000+ employees in more than 25 countries, we’re helping the world’s largest organizations make every employee AI-fluent, and turning the superintelligent enterprise from concept into reality.</p>\nIf you’re excited to shape how the world works, you’ll help build systems used daily across Microsoft Teams, Zoom, ServiceNow, Zendesk, GitHub, and many more - deeply embedded where people get things done. You’ll ship agentic capabilities on an open, extensible stack, with the craft and care required for enterprise trust, as we bring Work AI to every employee, in every company.</div></div><h4 class=\"text-xl font-bold text-text-100 mt-1 -mb-0.5\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">About the Role:</span></h4>\n<p class=\"whitespace-pre-wrap break-words\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Glean is seeking a talented AI Outcomes Manager to join our rapidly expanding team. The AI Outcomes Manager will play a crucial role in transforming how every department works, with the power of Glean. They will work closely with executives and end users, combining business acumen, product sense, and prompting skills to help them transform into an AI-native enterprise.</span></p>\n<h4 class=\"text-xl font-bold text-text-100 mt-1 -mb-0.5\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">You will:</span></h4>\n<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\">\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Engage with executive sponsors and provide strategic reviews and consult customers on developing and executing on their AI roadmap</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Deeply comprehend Glean's suite of products, ensuring the ability to best help customers get the most out of the Glean platform</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Conduct use case discovery workshops and turn those use cases into tangible outcomes&nbsp;</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Collaborate internally with Product and R&amp;D to help shape Glean’s product roadmap based on the voice of our users&nbsp;</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Proactively identify opportunities to expand Glean’s deployment and enhance customer engagement</span></li>\n</ul>\n<h4><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><strong>About you:</strong></span></h4>\n<ul>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">2+ years of professional experience&nbsp;</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Hungry, curious, and consultative mindset</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Strong problem-solving skills with the ability to adapt to different users and scenarios</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Proven understanding and ability to write complex prompts&nbsp;</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Ability to understand various user types and convey a sense of the most valuable applications of AI in diverse job functions</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Excellent communication skills to effectively interact with multiple stakeholder groups</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Product sense and ability to drive a product’s full potential capabilities</span></li>\n</ul>\n<h4><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><strong>Good to have:</strong></span></h4>\n<ul>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Customer presence: ability to work with any level from individual contributors to CEOs</span></li>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">Prior experience in consultative roles, solutions engineering, support, or product management</span></li>\n</ul>\n<p><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><strong>Location:</strong> London, United Kingdom</span></p>\n<ul>\n<li style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\"><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">This role is remote</span></li>\n</ul>\n<p><span style=\"font-size: 12pt; font-family: helvetica, arial, sans-serif;\">#LI-Remote</span></p>",
+  "keywords": "AI, Git, API",
+  "currency": "USD",
+  "salaryMin": null,
+  "salaryMax": null,
+  "equityMin": null,
+  "equityMax": null,
+  "cryptoPayment": false,
+  "applicationMethod": "Apply by website",
+  "applicationUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4613925005",
+  "publishedAt": "2025-10-03T06:48:18.000Z",
+  "expiresAt": "2026-02-08T18:46:33.640Z",
+  "paymentStatus": "paid",
+  "published": true
+}
+
+--- Description Preview ---
+<div class="content-intro"><div><span style="font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt;"><strong>About Glean:</strong></span></div>
+<div>
+<p>Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.</p>
+At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powe
+...
+
+
+--- JOB 2: AI Outcomes Manager ---
+
+Full Details:
+{
+  "company": "Glean",
+  "companyLogo": null,
+  "title": "AI Outcomes Manager",
+  "primaryRole": "Customer Outcomes",
+  "positionType": "Full-Time",
+  "locationType": "On Site",
+  "country": "Remote",
+  "locations": "Remote - US",
+  "description": "<div class=\"content-intro\"><div><span style=\"font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt;\"><strong>About Glean:</strong></span></div>\n<div>\n<p>Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.</p>\nAt its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilities - AI agents that automate real work across teams by accessing the industry’s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level.<br>\n<p>Recognized by Fast Company as one of the World’s Most Innovative Companies (Top 10, 2025), by CNBC’s Disruptor 50, Bloomberg’s AI Startups to Watch (2026), Forbes AI 50, and Gartner’s Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across 50+ industries and 1,000+ employees in more than 25 countries, we’re helping the world’s largest organizations make every employee AI-fluent, and turning the superintelligent enterprise from concept into reality.</p>\nIf you’re excited to shape how the world works, you’ll help build systems used daily across Microsoft Teams, Zoom, ServiceNow, Zendesk, GitHub, and many more - deeply embedded where people get things done. You’ll ship agentic capabilities on an open, extensible stack, with the craft and care required for enterprise trust, as we bring Work AI to every employee, in every company.</div></div><h4 class=\"text-xl font-bold text-text-100 mt-1 -mb-0.5\"><span style=\"font-size: 12pt;\">About the Role:</span></h4>\n<p class=\"whitespace-pre-wrap break-words\"><span style=\"font-size: 12pt;\">Glean is seeking a talented AI Outcomes Manager to join our rapidly expanding team. The AI Outcomes Manager will play a crucial role in transforming how every department works, with the power of Glean. They will work closely with executives and end users, combining business acumen, product sense, and prompting skills to help them transform into an AI-native enterprise.</span></p>\n<h4 class=\"text-xl font-bold text-text-100 mt-1 -mb-0.5\"><span style=\"font-size: 12pt;\">You will:</span></h4>\n<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\">\n<li style=\"font-size: 12pt;\">Partner with executive sponsors and end users to identify high‑impact use cases and turn them into measurable business outcomes on Glean.</li>\n<li style=\"font-size: 12pt;\">Lead strategic reviews and advise customers on their AI roadmap, ensuring they get the most value from Glean’s platform.</li>\n<li style=\"font-size: 12pt;\">Translate business needs into clear problem statements, success metrics, and practical AI solutions; collaborate with Product and R&amp;D to shape priorities.</li>\n<li style=\"font-size: 12pt;\">Conduct discovery workshops, scope pilots, and guide rollouts, driving breadth and depth of adoption of the Glean platform.</li>\n<li style=\"font-size: 12pt;\">Design and build AI agents with and for customers, including rethinking and redesigning underlying business processes to maximize impact and usability.</li>\n<li style=\"font-size: 12pt;\">Proactively identify expansion opportunities and drive engagement across teams and functions.</li>\n</ul>\n<h4><span style=\"font-size: 12pt;\"><strong>About you:</strong></span></h4>\n<ul>\n<li style=\"font-size: 12pt;\">5+ years of professional experience in roles that blend business and technology (e.g., product, analytics, data, engineering, solutions), with a consultative, customer‑facing approach.</li>\n<li style=\"font-size: 12pt;\">Strong problem‑solving and communication skills; comfortable working with stakeholders from ICs to executives and tailoring messages to different audiences.</li>\n<li style=\"font-size: 12pt;\">Demonstrated ability to craft effective prompts and guide AI agents for real customer or business workflows; you’ve shipped outcomes, not just demos.</li>\n<li style=\"font-size: 12pt;\">Understanding of what current LLMs can and cannot do; able to set expectations and steer towards reliable, safe, cost‑effective solutions.</li>\n<li style=\"font-size: 12pt;\">Product sense and user empathy—you can spot high‑value applications of AI across diverse job functions and design clear, guided experiences.</li>\n<li style=\"font-size: 12pt;\">Hands‑on experience with modern AI platforms and tools (e.g., OpenAI, Claude, Mistral, Cohere or similar), with enough technical depth to work with engineers without needing to be on the critical path for writing production code.</li>\n</ul>\n<h4><span style=\"font-size: 12pt;\"><strong>Good to have:</strong></span></h4>\n<ul>\n<li style=\"font-size: 12pt;\">Prior experience in customer‑facing, consultative roles (solutions, support, product management) and comfort presenting to senior leaders.</li>\n<li style=\"font-size: 12pt;\">Exposure to evaluating AI outcomes (e.g., defining success criteria, using sample tasks, reviewing results) and iterating for quality, latency, and cost.</li>\n<li style=\"font-size: 12pt;\">Ability to analyze usage signals and customer feedback to inform roadmap and drive adoption.</li>\n</ul>\n<p><strong><span style=\"font-size: 12pt;\">Location:</span></strong></p>\n<ul>\n<li><span style=\"font-size: 12pt;\">This role is remote in the U.S.</span></li>\n</ul>\n<p><span style=\"font-size: 12pt;\"><strong>Compensation &amp; Benefits:</strong></span></p>\n<p><span style=\"font-size: 12pt;\">The standard OTE range for this position is $130,000-$200,000 annually. Compensation offered will be determined by factors such as location, level, job-related knowledge, skills, and experience. Certain roles may be eligible for variable compensation, equity, and benefits.</span></p>\n<p><span style=\"font-size: 12pt;\">We are a diverse bunch of people and we want to continue to attract and retain a diverse range of people into our organization. We're committed to an inclusive and diverse company. We do not discriminate based on gender, ethnicity, sexual orientation, religion, civil or family status, age, disability, or race.</span></p>\n<p><strong data-stringify-type=\"bold\">#LI-Remote&nbsp;</strong></p>",
+  "keywords": "AI, Git, API",
+  "currency": "USD",
+  "salaryMin": 130000,
+  "salaryMax": 200000,
+  "equityMin": null,
+  "equityMax": null,
+  "cryptoPayment": false,
+  "applicationMethod": "Apply by website",
+  "applicationUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4549208005",
+  "publishedAt": "2025-04-02T11:52:58.000Z",
+  "expiresAt": "2026-02-08T18:46:34.208Z",
+  "paymentStatus": "paid",
+  "published": true
+}
+
+--- Description Preview ---
+<div class="content-intro"><div><span style="font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt;"><strong>About Glean:</strong></span></div>
+<div>
+<p>Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.</p>
+At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powe
+...
+
+
+--- JOB 3: AI Outcomes Manager ---
+
+Full Details:
+{
+  "company": "Glean",
+  "companyLogo": null,
+  "title": "AI Outcomes Manager",
+  "primaryRole": "Customer Outcomes",
+  "positionType": "Full-Time",
+  "locationType": "On Site",
+  "country": "USA",
+  "locations": "San Francisco Bay Area",
+  "description": "<div class=\"content-intro\"><div><span style=\"font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt;\"><strong>About Glean:</strong></span></div>\n<div>\n<p>Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.</p>\nAt its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilities - AI agents that automate real work across teams by accessing the industry’s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level.<br>\n<p>Recognized by Fast Company as one of the World’s Most Innovative Companies (Top 10, 2025), by CNBC’s Disruptor 50, Bloomberg’s AI Startups to Watch (2026), Forbes AI 50, and Gartner’s Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across 50+ industries and 1,000+ employees in more than 25 countries, we’re helping the world’s largest organizations make every employee AI-fluent, and turning the superintelligent enterprise from concept into reality.</p>\nIf you’re excited to shape how the world works, you’ll help build systems used daily across Microsoft Teams, Zoom, ServiceNow, Zendesk, GitHub, and many more - deeply embedded where people get things done. You’ll ship agentic capabilities on an open, extensible stack, with the craft and care required for enterprise trust, as we bring Work AI to every employee, in every company.</div></div><h4 class=\"text-xl font-bold text-text-100 mt-1 -mb-0.5\"><span style=\"font-size: 12pt;\">About the Role:</span></h4>\n<p class=\"whitespace-pre-wrap break-words\"><span style=\"font-size: 12pt;\">Glean is seeking a talented AI Outcomes Manager to join our rapidly expanding team. The AI Outcomes Manager will play a crucial role in transforming how every department works, with the power of Glean. They will work closely with executives and end users, combining business acumen, product sense, and prompting skills to help them transform into an AI-native enterprise.</span></p>\n<h4 class=\"text-xl font-bold text-text-100 mt-1 -mb-0.5\"><span style=\"font-size: 12pt;\">You will:</span></h4>\n<ul class=\"[&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7\">\n<li style=\"font-size: 12pt;\">Partner with executive sponsors and end users to identify high‑impact use cases and turn them into measurable business outcomes on Glean.</li>\n<li style=\"font-size: 12pt;\">Lead strategic reviews and advise customers on their AI roadmap, ensuring they get the most value from Glean’s platform.</li>\n<li style=\"font-size: 12pt;\">Translate business needs into clear problem statements, success metrics, and practical AI solutions; collaborate with Product and R&amp;D to shape priorities.</li>\n<li style=\"font-size: 12pt;\">Conduct discovery workshops, scope pilots, and guide rollouts, driving breadth and depth of adoption of the Glean platform.</li>\n<li style=\"font-size: 12pt;\">Design and build AI agents with and for customers, including rethinking and redesigning underlying business processes to maximize impact and usability.</li>\n<li style=\"font-size: 12pt;\">Proactively identify expansion opportunities and drive engagement across teams and functions.</li>\n</ul>\n<h4><span style=\"font-size: 12pt;\"><strong>About you:</strong></span></h4>\n<ul>\n<li style=\"font-size: 12pt;\">5+ years of professional experience in roles that blend business and technology (e.g., product, analytics, data, engineering, solutions), with a consultative, customer‑facing approach.</li>\n<li style=\"font-size: 12pt;\">Strong problem‑solving and communication skills; comfortable working with stakeholders from ICs to executives and tailoring messages to different audiences.</li>\n<li style=\"font-size: 12pt;\">Demonstrated ability to craft effective prompts and guide AI agents for real customer or business workflows; you’ve shipped outcomes, not just demos.</li>\n<li style=\"font-size: 12pt;\">Understanding of what current LLMs can and cannot do; able to set expectations and steer towards reliable, safe, cost‑effective solutions.</li>\n<li style=\"font-size: 12pt;\">Product sense and user empathy—you can spot high‑value applications of AI across diverse job functions and design clear, guided experiences.</li>\n<li style=\"font-size: 12pt;\">Hands‑on experience with modern AI platforms and tools (e.g., OpenAI, Claude, Mistral, Cohere or similar), with enough technical depth to work with engineers without needing to be on the critical path for writing production code.</li>\n</ul>\n<h4><span style=\"font-size: 12pt;\"><strong>Good to have:</strong></span></h4>\n<ul>\n<li style=\"font-size: 12pt;\">Prior experience in customer‑facing, consultative roles (solutions, support, product management) and comfort presenting to senior leaders.</li>\n<li style=\"font-size: 12pt;\">Exposure to evaluating AI outcomes (e.g., defining success criteria, using sample tasks, reviewing results) and iterating for quality, latency, and cost.</li>\n<li style=\"font-size: 12pt;\">Ability to analyze usage signals and customer feedback to inform roadmap and drive adoption.</li>\n</ul>\n<p><span style=\"font-size: 12pt;\"><strong>Location:</strong>&nbsp;</span></p>\n<ul>\n<li style=\"font-size: 12pt;\"><span style=\"font-size: 12pt;\">This role is hybrid (3-4 days a week in one of our SF Bay Area offices)</span></li>\n</ul>\n<p><span style=\"font-size: 12pt;\"><strong>Compensation &amp; Benefits:</strong></span></p>\n<p><span style=\"font-size: 12pt;\">The standard OTE range for this position is $150,000-$212,000 annually. Compensation offered will be determined by factors such as location, level, job-related knowledge, skills, and experience. Certain roles may be eligible for variable compensation, equity, and benefits.</span></p>\n<p><span style=\"font-size: 12pt;\">We are a diverse bunch of people and we want to continue to attract and retain a diverse range of people into our organization. We're committed to an inclusive and diverse company. We do not discriminate based on gender, ethnicity, sexual orientation, religion, civil or family status, age, disability, or race.</span></p>",
+  "keywords": "AI, Git, API",
+  "currency": "USD",
+  "salaryMin": 3,
+  "salaryMax": 4,
+  "equityMin": null,
+  "equityMax": null,
+  "cryptoPayment": false,
+  "applicationMethod": "Apply by website",
+  "applicationUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4540102005",
+  "publishedAt": "2025-04-01T21:51:53.000Z",
+  "expiresAt": "2026-02-08T18:46:34.780Z",
+  "paymentStatus": "paid",
+  "published": true
+}
+
+--- Description Preview ---
+<div class="content-intro"><div><span style="font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt;"><strong>About Glean:</strong></span></div>
+<div>
+<p>Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.</p>
+At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powe
+...
+
+
+================================================================================
+TEST COMPLETE
+================================================================================
