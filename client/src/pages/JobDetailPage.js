@@ -108,7 +108,7 @@ const JobDetailPage = () => {
                   {job.keywords.split(',').map((keyword, index) => (
                     <span
                       key={index}
-                      className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm"
+                      className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium"
                     >
                       {keyword.trim()}
                     </span>
