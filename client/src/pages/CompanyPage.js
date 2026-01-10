@@ -42,7 +42,7 @@ const CompanyPage = () => {
   const companyLogo = jobs && Object.values(jobs)[0]?.[0]?.companyLogo;
 
   return (
-    <div className="min-h-screen bg-background pt-20">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 pt-20">
       <div className="max-w-4xl mx-auto p-8">
         {/* Company Header */}
         <div className="bg-background rounded-lg shadow-sm p-8 mb-8">

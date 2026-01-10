@@ -1,6 +1,7 @@
 const CreateJobPage = () => {
   return (
-    <div className="max-w-4xl mx-auto p-6 pt-28">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 py-6">
+      <div className="max-w-4xl mx-auto p-6 pt-28">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Post a Job on Legend</h1>
         <p className="text-xl text-gray-600">Reach top talent in AI, Crypto, and Tech</p>
@@ -98,6 +99,7 @@ const CreateJobPage = () => {
             <p className="text-gray-600">Yes, we offer a full refund within 7 days if you're not satisfied with the results.</p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

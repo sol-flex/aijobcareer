@@ -30,7 +30,7 @@ const JobDetailPage = () => {
   if (!job) return <div className="text-center py-8">Job not found</div>;
 
   return (
-    <div className="min-h-screen bg-background pt-20">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 pt-20">
       <div className="max-w-4xl mx-auto p-8 bg-background rounded-lg shadow-sm">
         {/* Header */}
         <div className="border-b pb-8">
