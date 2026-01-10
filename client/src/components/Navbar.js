@@ -1,18 +1,24 @@
 import { Link } from 'react-router-dom';
-import legendLogo from '../legend-logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary shadow-lg fixed w-full top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center">
-            <img src={legendLogo} alt="Legend - AI & Crypto Job Board" className="h-16 w-auto" />
+    <nav className="bg-white border-b border-gray-200 fixed w-full top-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          {/* Left Side - Logo */}
+          <Link to="/" className="flex items-center gap-3">
+            <div className="w-8 h-8 bg-black rounded-sm flex items-center justify-center">
+              <div className="text-white font-bold text-lg">L</div>
+            </div>
+            <span className="text-xl font-medium text-foreground">Legend</span>
           </Link>
 
-          <div className="flex space-x-6">
-            <Link to="/" className="hover:text-primary-foreground/80 py-2 text-primary-foreground font-bold transition-colors">Browse Jobs</Link>
-            <Link to="/post-job" className="bg-accent text-accent-foreground px-4 py-2 rounded-lg hover:bg-accent/80 font-bold transition-colors">
+          {/* Right Side - Navigation */}
+          <div className="hidden md:flex items-center gap-8">
+            <Link to="/" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+              Find Jobs
+            </Link>
+            <Link to="/post-job" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
               Post a Job
             </Link>
           </div>
