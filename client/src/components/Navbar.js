@@ -15,10 +15,10 @@ const Navbar = () => {
 
           {/* Right Side - Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+            <Link to="/" className="text-base text-gray-600 hover:text-gray-900 transition-colors font-medium">
               Find Jobs
             </Link>
-            <Link to="/post-job" className="bg-black text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition-colors">
+            <Link to="/post-job" className="bg-black text-white px-5 py-2.5 rounded-md text-base font-medium hover:bg-gray-800 transition-colors">
               Post a Job
             </Link>
           </div>
