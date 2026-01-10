@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Left Side - Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
+            <div className="w-8 h-8 bg-black rounded-sm flex items-center justify-center">
               <div className="text-white font-bold text-lg">L</div>
             </div>
             <span className="text-xl font-medium text-foreground">Legend</span>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link to="/" className="text-base text-gray-600 hover:text-primary transition-colors font-medium">
               Find Jobs
             </Link>
-            <Link to="/post-job" className="bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-base font-medium hover:bg-primary/90 transition-colors">
+            <Link to="/post-job" className="bg-black text-white px-5 py-2.5 rounded-md text-base font-medium hover:bg-gray-800 transition-colors">
               Post a Job
             </Link>
           </div>
