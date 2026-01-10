@@ -30,8 +30,8 @@ const JobDetailPage = () => {
   if (!job) return <div className="text-center py-8">Job not found</div>;
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-20">
-      <div className="max-w-4xl mx-auto p-8 bg-gray-50 rounded-lg shadow-sm">
+    <div className="min-h-screen bg-background pt-20">
+      <div className="max-w-4xl mx-auto p-8 bg-background rounded-lg shadow-sm">
         {/* Header */}
         <div className="border-b pb-8">
           <div className="flex justify-between items-start">
@@ -48,7 +48,7 @@ const JobDetailPage = () => {
             </div>
             <button
               onClick={() => window.open(job.applicationUrl, '_blank')}
-              className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-lg transition-colors"
+              className="bg-primary hover:opacity-90 text-primary-foreground px-6 py-3 rounded-lg transition-colors"
             >
               Apply Now
             </button>
@@ -77,7 +77,7 @@ const JobDetailPage = () => {
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Job Details Card */}
-            <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="bg-muted p-6 rounded-lg">
               <h3 className="font-semibold text-gray-900 mb-4">Job Details</h3>
               
               <div className="space-y-4">
@@ -102,7 +102,7 @@ const JobDetailPage = () => {
 
             {/* Keywords */}
             {job.keywords && (
-              <div className="bg-gray-100 p-6 rounded-lg">
+              <div className="bg-muted p-6 rounded-lg">
                 <h3 className="font-semibold text-gray-900 mb-4">Keywords</h3>
                 <div className="flex flex-wrap gap-2">
                   {job.keywords.split(',').map((keyword, index) => (
@@ -124,7 +124,7 @@ const JobDetailPage = () => {
           <div className="text-center">
             <button
               onClick={() => window.open(job.applicationUrl, '_blank')}
-              className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-lg transition-colors"
+              className="bg-primary hover:opacity-90 text-primary-foreground px-8 py-3 rounded-lg transition-colors"
             >
               Apply for this position
             </button>

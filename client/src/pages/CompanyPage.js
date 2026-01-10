@@ -42,10 +42,10 @@ const CompanyPage = () => {
   const companyLogo = jobs && Object.values(jobs)[0]?.[0]?.companyLogo;
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-20">
+    <div className="min-h-screen bg-background pt-20">
       <div className="max-w-4xl mx-auto p-8">
         {/* Company Header */}
-        <div className="bg-gray-50 rounded-lg shadow-sm p-8 mb-8">
+        <div className="bg-background rounded-lg shadow-sm p-8 mb-8">
           <div className="flex items-center gap-6">
             <img
               src={companyLogo || '/default-company-logo.png'}
@@ -64,7 +64,7 @@ const CompanyPage = () => {
         {/* Job Categories */}
         <div className="space-y-8">
           {Object.entries(jobs).map(([category, categoryJobs]) => (
-            <div key={category} className="bg-gray-50 rounded-lg shadow-sm p-8">
+            <div key={category} className="bg-background rounded-lg shadow-sm p-8">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">
                 {category}
               </h2>

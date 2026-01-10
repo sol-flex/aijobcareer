@@ -3,7 +3,7 @@ import legendLogo from '../legend-logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="bg-black shadow-lg fixed w-full top-0 z-50">
+    <nav className="bg-primary shadow-lg fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center">
@@ -11,8 +11,8 @@ const Navbar = () => {
           </Link>
 
           <div className="flex space-x-6">
-            <Link to="/" className="hover:text-gray-400 py-2 text-white font-bold transition-colors">Browse Jobs</Link>
-            <Link to="/post-job" className="bg-gray-100 text-black px-4 py-2 rounded-lg hover:bg-gray-300 font-bold transition-colors">
+            <Link to="/" className="hover:text-primary-foreground/80 py-2 text-primary-foreground font-bold transition-colors">Browse Jobs</Link>
+            <Link to="/post-job" className="bg-accent text-accent-foreground px-4 py-2 rounded-lg hover:bg-accent/80 font-bold transition-colors">
               Post a Job
             </Link>
           </div>

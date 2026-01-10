@@ -49,7 +49,7 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
   };
 
   return (
-    <div className="bg-gray-50 pt-8 mt-16">
+    <div className="bg-card pt-8 mt-16">
       <div className="max-w-3xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-12 mt-10">
           Find your next role at the world's most cutting-edge companies
@@ -79,7 +79,7 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
 
           <button
             type="submit"
-            className="bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-colors"
+            className="bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:opacity-90 transition-colors"
           >
             Search
           </button>
@@ -87,7 +87,7 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
 
         {/* Resume Upload Banner */}
         {showResumeUpload && (
-          <div className="bg-gray-50 rounded-lg shadow-lg p-8 mt-4 mb-2 relative">
+          <div className="bg-card rounded-lg shadow-lg p-8 mt-4 mb-2 relative">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-semibold">
               Upload your resume and get jobs delivered to your inbox
@@ -151,7 +151,7 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
               </div>
               <button
                 type="submit"
-                className="bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-colors"
+                className="bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:opacity-90 transition-colors"
                 disabled={uploading}
               >
                 {uploading ? 'Uploading...' : 'Submit'}

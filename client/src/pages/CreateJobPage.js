@@ -7,10 +7,10 @@ const CreateJobPage = () => {
       </div>
 
       {/* Pricing Section */}
-      <div className="bg-gray-50 rounded-lg shadow-lg p-8 mb-8 border-2 border-black">
+      <div className="bg-card rounded-lg shadow-lg p-8 mb-8 border-2 border-primary">
         <div className="text-center mb-6">
           <h2 className="text-3xl font-bold mb-2">30-Day Job Posting</h2>
-          <div className="text-5xl font-bold text-black mb-2">$149</div>
+          <div className="text-5xl font-bold text-primary mb-2">$149</div>
           <p className="text-gray-600">One-time payment</p>
         </div>
 
@@ -52,7 +52,7 @@ const CreateJobPage = () => {
       </div>
 
       {/* Contact Section */}
-      <div className="bg-gray-50 rounded-lg p-8 text-center">
+      <div className="bg-card rounded-lg p-8 text-center">
         <h2 className="text-2xl font-bold mb-4">Ready to Post Your Job?</h2>
         <p className="text-gray-600 mb-6">
           Contact us to get started. We'll help you create and publish your job posting.
@@ -61,7 +61,7 @@ const CreateJobPage = () => {
         <div className="mb-6">
           <a
             href="mailto:legendjobinquiries@gmail.com?subject=Job Posting Inquiry"
-            className="inline-block bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 font-bold text-lg transition-colors"
+            className="inline-block bg-primary text-primary-foreground px-8 py-4 rounded-lg hover:opacity-90 font-bold text-lg transition-opacity"
           >
             Email Us to Post a Job
           </a>
