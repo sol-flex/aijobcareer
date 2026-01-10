@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const fileUpload = require('express-fileupload');
+const path = require('path');
 require('dotenv').config();
 
 console.log('MongoDB URI from .env:', process.env.MONGODB_URI);
@@ -15,11 +16,19 @@ app.use(fileUpload({
   createParentPath: true
 }));
 
-// Routes
+// API Routes
 app.use('/api/jobs', require('./routes/jobRoutes'));
 app.use('/api/resumes', require('./routes/resumeRoutes'));
 // app.use('/api/users', require('./routes/userRoutes'));
 //app.use('/api/companies', require('./routes/companyRoutes'));
+
+// Serve static files from React build
+app.use(express.static(path.join(__dirname, '../client/build')));
+
+// Serve React app for all non-API routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+});
 
 // Connect to MongoDB
 console.log('MongoDB URI from .env:', process.env.MONGODB_URI);
