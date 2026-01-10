@@ -1,6 +1,6 @@
 import SearchSection from '../components/SearchSection';
 import JobList from '../components/JobList';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const HomePage = () => {
   const [searchParams, setSearchParams] = useState({

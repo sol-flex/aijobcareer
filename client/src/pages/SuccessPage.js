@@ -5,7 +5,6 @@ const SuccessPage = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [success, setSuccess] = useState(false);
 
   useEffect(() => {
     const publishJob = async () => {
@@ -33,9 +32,8 @@ const SuccessPage = () => {
         }
 
         localStorage.removeItem('pendingJobId');
-        setSuccess(true);
-        
-        // Redirect after 3 seconds
+
+        // Redirect after 7 seconds
         setTimeout(() => {
           navigate('/');
         }, 7000);
@@ -47,7 +45,7 @@ const SuccessPage = () => {
     };
 
     publishJob();
-  }, []);
+  }, [navigate]);
 
   if (error) {
     return (
