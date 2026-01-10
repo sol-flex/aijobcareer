@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link to="/" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
               Find Jobs
             </Link>
-            <Link to="/post-job" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+            <Link to="/post-job" className="bg-black text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition-colors">
               Post a Job
             </Link>
           </div>
