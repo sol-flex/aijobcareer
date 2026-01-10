@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "vercel-build": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +49,5 @@
     "@tailwindcss/typography": "^0.5.15",
     "tailwindcss": "^3.4.16"
   },
-  "homepage": "https://sol-flex.github.io/aijobcareer"
+  "homepage": "."
 }
