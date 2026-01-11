@@ -144,12 +144,29 @@ const main = async () => {
     
                 console.log(existingJobUrls);
 
+                // Collect all current job URLs from the scraped data
+                const currentJobUrls = new Set();
+                for(const urls of Object.values(jobLinks)) {
+                    urls.forEach(url => currentJobUrls.add(url));
+                }
+
+                // Mark jobs as deprecated if they're no longer on the website
+                for(const existingJob of existingJobs) {
+                    if(!currentJobUrls.has(existingJob.applicationUrl) && !existingJob.deprecated) {
+                        existingJob.deprecated = true;
+                        existingJob.deprecatedAt = new Date();
+                        await existingJob.save();
+                        console.log(`Job marked as deprecated: ${existingJob.title}`);
+                    }
+                }
+
+                // Add new jobs
                 for(const [category, urls] of Object.entries(jobLinks)) {
                     for(const url of urls) {
                         const existingJob = existingJobUrls.has(url);
 
                         console.log(existingJob);
-    
+
                         if(!existingJob) {
                             const jobData = await parseJobWithAI(url, category);
                             console.log("Job data:",jobData);
@@ -165,8 +182,8 @@ const main = async () => {
                             console.log(`Job already exists: ${url}`);
                         }
                     }
-                        
-        
+
+
                 }
         }
 

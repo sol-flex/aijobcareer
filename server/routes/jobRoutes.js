@@ -6,7 +6,7 @@ const Company = require('../models/Company');
 // Get all jobs
 router.get('/', async (req, res) => {
   try {
-    const jobs = await Job.find();
+    const jobs = await Job.find({ deprecated: { $ne: true } });
     res.json(jobs);
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -99,18 +99,19 @@ router.patch('/:id', async (req, res) => {
 router.get('/company/:companyName', async (req, res) => {
     try {
       const { companyName } = req.params;
-      
-      const jobs = await Job.find({ 
-        company: companyName 
-      }).sort({ 
+
+      const jobs = await Job.find({
+        company: companyName,
+        deprecated: { $ne: true }
+      }).sort({
         primaryRole: 1,  // Sort by role first
         createdAt: -1    // Then by date (newest first)
       });
-      
+
       if (!jobs.length) {
         return res.status(404).json({ message: 'No jobs found for this company' });
       }
-      
+
       res.json(jobs);
     } catch (error) {
       console.error('Error fetching company jobs:', error);

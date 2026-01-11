@@ -46,6 +46,9 @@ const JobList = ({ searchParams }) => {
 
   return (
     <div className="max-w-3xl mx-auto px-4">
+      <div className="mt-4 mb-4 text-gray-500">
+        <span className="font-medium text-gray-600">{filteredJobs.length}</span> {filteredJobs.length === 1 ? 'job' : 'jobs'} found
+      </div>
       <div>
         {filteredJobs.map((job, index) =>
           <JobCard
