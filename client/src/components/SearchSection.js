@@ -49,7 +49,7 @@ const SearchSection = ({ onSearch, onUploadResume, hasUploadedResume }) => {
   };
 
   return (
-    <div className="bg-card pt-8 mt-16">
+    <div className="pt-8 mt-16">
       <div className="max-w-3xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-12 mt-10">
           Find your next role at the world's most cutting-edge companies

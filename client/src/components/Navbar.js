@@ -16,7 +16,13 @@ const Navbar = () => {
           {/* Right Side - Navigation */}
           <div className="hidden md:flex items-center gap-8">
             <Link to="/" className="text-base text-gray-600 hover:text-primary transition-colors font-medium">
-              Find Jobs
+              All Jobs
+            </Link>
+            <Link to="/?category=AI" className="text-base text-gray-600 hover:text-primary transition-colors font-medium">
+              AI
+            </Link>
+            <Link to="/?category=Crypto" className="text-base text-gray-600 hover:text-primary transition-colors font-medium">
+              Crypto
             </Link>
             <Link to="/post-job" className="bg-black text-white px-5 py-2.5 rounded-md text-base font-medium hover:bg-gray-800 transition-colors">
               Post a Job

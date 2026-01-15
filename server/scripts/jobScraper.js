@@ -99,7 +99,7 @@ async function parseJobWithAI(url, category, companyName) {
         }
 
                 
-        IMPORTANT: 
+        IMPORTANT:
         - Use the EXACT original job description text for the description field
         - Add appropriate markdown formatting for the description
           * Use ## for main section headers (e.g., "## About Us", "## Responsibilities", "## Requirements")
@@ -108,14 +108,19 @@ async function parseJobWithAI(url, category, companyName) {
           * Add line breaks between sections for readability
           * Preserve any existing lists or formatting structure
           * Do not summarize or remove any content
-          
+
         - Do not summarize or modify the description
         - If currency is not specified, use "USD"
         - If cryptoPayment is not specified, use false
         - If applicationMethod is not clear, use "Apply by website"
-        - If a field is unavailable write a string 'null'
+        - For the "locations" field:
+          * If specific city/location is mentioned, use that (e.g., "San Francisco, CA", "New York, NY")
+          * If the job is Remote with no specific location, use "Remote"
+          * If the job is Remote but country-specific, use format like "Remote - United States"
+          * Never use the string "null" for locations
         - If you're unable to identify the company logo image URL, use "null"
         - If you're able to identify the company logo image URL, use it in companyLogo
+        - For other fields, if truly unavailable, write the string "null"
 
         Job posting content to analyze:
         ${cleanContent}

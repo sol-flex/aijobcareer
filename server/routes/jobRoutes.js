@@ -6,6 +6,22 @@ const Company = require('../models/Company');
 // Get all jobs
 router.get('/', async (req, res) => {
   try {
+    const { category } = req.query;
+
+    // If category filter is provided, find companies with that category
+    if (category) {
+      const companies = await Company.find({ categories: category });
+      const companyNames = companies.map(c => c.name);
+
+      const jobs = await Job.find({
+        deprecated: { $ne: true },
+        company: { $in: companyNames }
+      });
+
+      return res.json(jobs);
+    }
+
+    // Otherwise return all non-deprecated jobs
     const jobs = await Job.find({ deprecated: { $ne: true } });
     res.json(jobs);
   } catch (error) {

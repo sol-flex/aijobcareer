@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import JobCard from './JobCard';
 
 
@@ -7,9 +7,11 @@ const JobList = ({ searchParams }) => {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const fetchJobs = async () => {
+  const fetchJobs = useCallback(async () => {
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/jobs`);
+      setLoading(true);
+      const categoryParam = searchParams.category ? `?category=${searchParams.category}` : '';
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/jobs${categoryParam}`);
       const data = await response.json();
       setJobs(data);
 
@@ -18,11 +20,11 @@ const JobList = ({ searchParams }) => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [searchParams.category]);
 
   useEffect(() => {
     fetchJobs();
-  }, []);
+  }, [fetchJobs]);
 
   jobs.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 

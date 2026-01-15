@@ -1,20 +1,33 @@
 import SearchSection from '../components/SearchSection';
 import JobList from '../components/JobList';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 
 const HomePage = () => {
+  const [urlSearchParams] = useSearchParams();
+  const category = urlSearchParams.get('category');
+
   const [searchParams, setSearchParams] = useState({
     keyword: '',
-    location: ''
+    location: '',
+    category: category || ''
   });
+
+  // Update searchParams when URL category changes
+  useEffect(() => {
+    setSearchParams(prev => ({
+      ...prev,
+      category: category || ''
+    }));
+  }, [category]);
   const [hasUploadedResume, setHasUploadedResume] = useState(() => {
     // Check localStorage on initial load
     return localStorage.getItem('resumeUploaded') === 'true';
   });
 
-  const handleSearch = (searchParams) => {
-    setSearchParams(searchParams);
-    console.log('Search params:', searchParams);
+  const handleSearch = (params) => {
+    setSearchParams({ ...params, category: category || '' });
+    console.log('Search params:', params);
   };
 
   const handleUploadResume = async (formData) => {

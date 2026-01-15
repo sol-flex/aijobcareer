@@ -49,8 +49,43 @@ async function fetchLeverJobs(identifier) {
 }
 
 /**
+ * Combine all Lever text content into a single string
+ * This ensures OpenAI sees all job details consistently
+ */
+function combineLeverContent(leverData) {
+    let fullContent = '';
+
+    // 1. Main description
+    if (leverData.descriptionPlain) {
+        fullContent += leverData.descriptionPlain + '\n\n';
+    }
+
+    // 2. Lists (What You'll Do, Requirements, etc.)
+    if (leverData.lists && leverData.lists.length > 0) {
+        leverData.lists.forEach(list => {
+            if (list.text) fullContent += '## ' + list.text + '\n';
+            if (list.content) {
+                // Strip HTML tags but preserve structure
+                const plainContent = list.content
+                    .replace(/<li>/g, '- ')
+                    .replace(/<\/li>/g, '\n')
+                    .replace(/<[^>]+>/g, '');
+                fullContent += plainContent + '\n\n';
+            }
+        });
+    }
+
+    // 3. Additional info (benefits, culture, etc.)
+    if (leverData.additionalPlain) {
+        fullContent += leverData.additionalPlain + '\n\n';
+    }
+
+    return fullContent.trim();
+}
+
+/**
  * Fetch full job details from Lever API
- * Returns raw API data for OpenAI parsing
+ * Returns raw API data with combined content for OpenAI parsing
  */
 async function fetchLeverJobDetails(identifier, jobId) {
     try {
@@ -60,7 +95,12 @@ async function fetchLeverJobDetails(identifier, jobId) {
             timeout: 10000
         });
 
-        return response.data;
+        const data = response.data;
+
+        // Add combined content field for reliable OpenAI parsing
+        data.combinedContent = combineLeverContent(data);
+
+        return data;
 
     } catch (error) {
         console.error(`    ✗ Failed to fetch Lever job details: ${error.message}`);
